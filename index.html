@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Andrew Jin</title>
+        <link rel = "stylesheet" type = "text/css" href = "bootstrap.css" />
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+        <link rel = "stylesheet" href = "https://use.typekit.net/kuv2nuf.css" />
+        <meta charset = "utf-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name = "description" content = "Andrew Jin">
+        <meta name = "author" content = "Andrew Jin">
+    </head>
+    <body ontouchstart = "">
+        <nav class = "navbar sticky-top navbar-expand-sm navbar-light">
+            <!-- bootstrap nav bar -->
+              <a class = "navbar-brand mybrand" href = "index.html">Andrew Jin</a>
+              <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavAltMarkup" aria-controls = "navbarNavAltMarkup" aria-expanded = "false" aria-label = "Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+              </button>
+              <div class = "collapse navbar-collapse" id = "navbarNavAltMarkup">
+                <div class = "navbar-nav">
+                    <a class = "nav-item nav-link" style = "font-size: 1.25rem; cursor: default; color: #242a2e !important; text-decoration: underline solid #242a2e !important;">Home</a>
+                    <a class = "nav-item nav-link" href = "resume.html" style = "font-size: 1.25rem">Resume</a>
+                    <a class = "nav-item nav-link" href = "portfolio.html" style = "font-size: 1.25rem">Portfolio</a>
+                </div>
+              </div> 
+        </nav>
+        <div class = "overlay" id = "overlay">
+            <div class = "overlay-inner">Welcome to my website!</div>
+        </div>
+        <div class = "overlay2" id = "overlay2">
+            <div class = "overlay-inner" style = "font-size: 1.25rem !important; font-style: italic;">Feel free to scroll down</div>
+        </div>
+        <div class = "wrapper_full">
+            <div style = "height: 80vh; min-height: 312px; background: url(images/mckeldin.jpg) no-repeat fixed; background-size: cover; background-position: 60% 20%;"><div style = "height: 100%; width: 100%; background-image: linear-gradient(to bottom, rgba(0,0,0,0) 67%, rgba(0,0,0,0.33) 100%);"></div></div>
+            <div style = "background-image: url(images/laptop2.jpg);" class = "preview-section" id = "second">
+                <div class = "preview-inner">
+                    <table class = "preview-table">
+                        <tr onclick = "location.href='resume.html'">
+                            <td class = "ptitle"><a href = "resume.html" class = "ptitlea">View my resume</a></td>
+                            <td class = "parrow">&#8594;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div style = "background-image: url(images/interview.jpg)" class = "preview-section">
+                <div class = "preview-inner">
+                    <table class = "preview-table">
+                        <tr onclick = "location.href='portfolio.html'">
+                            <td class = "ptitle"><a href = "portfolio.html" class = "ptitlea">View my portfolio</a></td>
+                            <td class = "parrow">&#8594;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class = "footer">
+                <br/>
+                <p class = "meow">&copy; Copyright 2024</p>
+            </div>
+        </div>
+        <script type = "text/javascript">
+        window.onscroll = function() {myFunction()};
+            var header = document.getElementById("overlay");
+            var second = document.getElementById("second");
+            var header2 = document.getElementById("overlay2")
+            function myFunction() {
+                var landmark = second.offsetTop - (window.innerHeight * 0.39);
+                var landmark2 = window.innerHeight * 0.015;
+                if (window.pageYOffset > landmark) {
+                    var newbottom_int = (60 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
+                    if (newbottom_int > 105){
+                        newbottom_int = 105;
+                    }
+                    var newbottom = newbottom_int + "%";
+                    header.style.bottom = newbottom;
+                    var newopacity_int = 100 - (((window.pageYOffset - landmark) / window.innerHeight) * 400);
+                    if (newopacity_int < 0){
+                        newopacity_int = 0;
+                    }
+                    var newopacity = newopacity_int + "%";
+                    header.style.opacity = newopacity;
+                } else {
+                    header.style.bottom = "60%";
+                    header.style.opacity = "100%";
+                }
+                if (window.pageYOffset > landmark2){
+                    var newopacity2_int = 100 - (((window.pageYOffset - landmark2) / window.innerHeight) * 1850);
+                    if (newopacity2_int < 0){
+                        newopacity2_int = 0;
+                        header2.style.bottom = "105%";
+                    } else {
+                        if (header2.style.bottom == "105%"){
+                            header2.style.bottom = "20%";
+                        }
+                    }
+                    var newopacity2 = newopacity2_int + "%";
+                    header2.style.opacity = newopacity2;
+                } else {
+                    header2.style.opacity = "100%";
+                    if (header2.style.bottom == "105%"){
+                        header2.style.bottom = "20%";
+                    }
+                }
+            } 
+        </script>
+        <script src = "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity = "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin = "anonymous"></script>
+        <script src = "bootstrap.bundle.js"></script>
+    </body>
+</html>
