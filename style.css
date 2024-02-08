@@ -12,8 +12,9 @@ body{
 p {
     font-family: "myriad-pro", Helvetica, sans-serif;
     font-size: 1rem;
-    line-height: 140%;
     color: #000000;
+    line-height: 140%;
+    font-weight: 400;
 }
 
 h1 {
@@ -261,7 +262,6 @@ img{
 .parrowp{
     color: #ffffff;
     font-size: 2.5rem;
-    font-weight: 300;
     margin-bottom: 0px;
     max-width: 100%;
     transition: transform 0.33s ease, max-width 0.33s ease;
