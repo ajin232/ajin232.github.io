@@ -409,7 +409,7 @@ img{
     }
 }
 
-@media (max-width: 930px) and (pointer: coarse){
+@media (max-width: 1080px) and (pointer: coarse){
     .mastcontainer, .preview-section, .homemast{
         background-attachment: scroll !important;
     }
