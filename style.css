@@ -144,7 +144,7 @@ img{
 
 .mastcontainer{ /* sets size, alignment, and background of masthead banner */
     height: 39vh; 
-    min-height: 250px;
+    min-height: 245px;
     max-height: 40vw;
     width: 100%;
     vertical-align: middle; 
