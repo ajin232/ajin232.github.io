@@ -259,7 +259,7 @@ img{
 }
 
 .preview-table:hover .parrow, .preview-table:active .parrow{
-    transform: translateX(30px);
+    transform: translateX(24px);
     transition: transform 0.33s ease;
 }
 
@@ -376,6 +376,7 @@ img{
     .preview-table{
         font-size: 1.875rem;
         width: 93.75%;
+        max-width: 93.75% !important;
         transition: font-size 0.25s ease, width 0.25s ease;
     }
     .ptitle{
