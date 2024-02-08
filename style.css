@@ -268,8 +268,8 @@ img{
 }
 
 .preview-table:hover .parrowp, .preview-table:active .parrowp{
-    max-width: calc(100% - 30px);
-    transform: translateX(30px);
+    max-width: calc(100% - 32px);
+    transform: translateX(32px);
     transition: transform 0.33s ease, max-width 0.33s ease;
 }
 
@@ -390,12 +390,6 @@ img{
     .parrow{
         width: 37.5%;
         max-width: 37.5%;
-    }
-    .parrowp{
-        max-width: 100%;   
-    }
-    .preview-table:hover .parrowp, .preview-table:active .parrowp{
-        max-width: calc(100% - 30px);
     }
     .overlay-inner {
         font-size: 2rem !important;
