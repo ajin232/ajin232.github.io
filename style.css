@@ -377,6 +377,7 @@ img{
         font-size: 1.875rem;
         width: 93.75%;
         max-width: 93.75% !important;
+        overflow-x: hidden !important;
         transition: font-size 0.25s ease, width 0.25s ease;
     }
     .ptitle{
