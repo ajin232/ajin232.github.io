@@ -66,7 +66,7 @@
             var header2 = document.getElementById("overlay2")
             function myFunction() {
                 var landmark = second.offsetTop - (window.innerHeight * 0.39);
-                var landmark2 = window.innerHeight * 0.015;
+                var landmark2 = window.innerHeight * 0.01;
                 if (window.pageYOffset > landmark) {
                     var newbottom_int = (60 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
                     if (newbottom_int > 105){
@@ -91,7 +91,7 @@
                         header2.style.bottom = "105%";
                     } else {
                         if (header2.style.bottom == "105%"){
-                            header2.style.bottom = "20%";
+                            header2.style.bottom = "21%";
                         }
                     }
                     var newopacity2 = newopacity2_int + "%";
@@ -99,7 +99,7 @@
                 } else {
                     header2.style.opacity = "100%";
                     if (header2.style.bottom == "105%"){
-                        header2.style.bottom = "20%";
+                        header2.style.bottom = "21%";
                     }
                 }
             } 
