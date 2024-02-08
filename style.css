@@ -268,8 +268,8 @@ img{
 }
 
 .preview-table:hover .parrowp, .preview-table:active .parrowp{
-    max-width: calc(100% - 40px);
-    transform: translateX(40px);
+    max-width: calc(100% - 36px);
+    transform: translateX(36px);
     transition: transform 0.33s ease, max-width 0.33s ease;
 }
 
