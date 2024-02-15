@@ -85,6 +85,11 @@ img{
     margin-right: auto;
 }
 
+iframe{
+    border: none;
+    
+}
+
 /* custom classes */
 .navbar{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
