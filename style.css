@@ -369,7 +369,7 @@ img{
         transition: font-size 0.5s ease;
     }
     .wrapper{
-        transition: width 0.25s ease;
+        transition: width 0.25s linear;
     }
     .preview-table{
         font-size: 2rem;
@@ -404,7 +404,7 @@ img{
     }
     .wrapper{
         width: 100%;
-        transition: width 0.25s ease;
+        transition: width 0.25s linear;
     }
     .navbar{
         padding: 0.5rem 3.125% !important;
