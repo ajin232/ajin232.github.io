@@ -61,31 +61,31 @@
         </div>
         <script type = "text/javascript">
         window.onscroll = function() {myFunction()};
-            var header = document.getElementById("overlay");
-            var second = document.getElementById("second");
-            var header2 = document.getElementById("overlay2")
+            let header = document.getElementById("overlay");
+            let second = document.getElementById("second");
+            let header2 = document.getElementById("overlay2")
             function myFunction() {
-                var landmark = second.offsetTop - (window.innerHeight * 0.39);
-                var landmark2 = window.innerHeight * 0.01;
+                let landmark = second.offsetTop - (window.innerHeight * 0.39);
+                let landmark2 = window.innerHeight * 0.01;
                 if (window.pageYOffset > landmark) {
-                    var newbottom_int = (60 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
+                    let newbottom_int = (60 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
                     if (newbottom_int > 105){
                         newbottom_int = 105;
                     }
-                    var newbottom = newbottom_int + "%";
+                    let newbottom = newbottom_int + "%";
                     header.style.bottom = newbottom;
-                    var newopacity_int = 100 - (((window.pageYOffset - landmark) / window.innerHeight) * 400);
+                    let newopacity_int = 100 - (((window.pageYOffset - landmark) / window.innerHeight) * 400);
                     if (newopacity_int < 0){
                         newopacity_int = 0;
                     }
-                    var newopacity = newopacity_int + "%";
+                    let newopacity = newopacity_int + "%";
                     header.style.opacity = newopacity;
                 } else {
                     header.style.bottom = "60%";
                     header.style.opacity = "100%";
                 }
                 if (window.pageYOffset > landmark2){
-                    var newopacity2_int = 100 - (((window.pageYOffset - landmark2) / window.innerHeight) * 1850);
+                    let newopacity2_int = 100 - (((window.pageYOffset - landmark2) / window.innerHeight) * 1850);
                     if (newopacity2_int < 0){
                         newopacity2_int = 0;
                         header2.style.bottom = "105%";
@@ -94,7 +94,7 @@
                             header2.style.bottom = "21%";
                         }
                     }
-                    var newopacity2 = newopacity2_int + "%";
+                    let newopacity2 = newopacity2_int + "%";
                     header2.style.opacity = newopacity2;
                 } else {
                     header2.style.opacity = "100%";
