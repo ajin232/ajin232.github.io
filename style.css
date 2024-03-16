@@ -122,14 +122,14 @@ iframe{
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
     text-decoration: underline solid transparent;
-    transition: all 0.25s ease;
+    transition: all 0.33s ease;
     color: #7F8C8D !important;
 }
 
 .nav-link:hover{
     color: #242a2e !important;
     text-decoration: underline solid #242a2e !important;
-    transition: all 0.25s ease;
+    transition: all 0.33s ease;
 }
 
 /*.logo{
