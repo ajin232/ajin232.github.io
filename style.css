@@ -96,19 +96,19 @@ iframe{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
     padding: 0.5rem 10% !important;
     box-shadow: 0px 2px 7px 3px rgba(36,42,46, 0.25); 
-    background-color: rgba(255,255,255, 0.875);
+    background-color: rgba(36, 42, 46, 0.875);
     backdrop-filter: blur(3px) !important;
     -webkit-backdrop-filter: blur(3px) !important;
     transition: background-color 0.25s ease;
 }
 
 .navbar:hover, .navbar:active{
-    background-color: #ffffff;
+    background-color: #242a2e;
     transition: background-color 0.25s ease;
 }
 
 .mybrand{
-    color: #16A085 !important;
+    color: #ffffff !important;
     font-size: 1.625rem; 
     padding-top: 2px;
     text-decoration: none !important;
@@ -124,12 +124,12 @@ iframe{
     padding-right: 0.75rem !important;
     text-decoration: underline solid transparent;
     transition: all 0.33s ease;
-    color: #7F8C8D !important;
+    color: #cfd8dc !important;
 }
 
 .nav-link:hover{
-    color: #242a2e !important;
-    text-decoration: underline solid #242a2e !important;
+    color: #ffffff !important;
+    text-decoration: underline solid #ffffff !important;
     transition: all 0.33s ease;
 }
 
