@@ -112,6 +112,7 @@ iframe{
     font-size: 1.625rem; 
     padding-top: 2px;
     text-decoration: none !important;
+    transition: color 0.33s ease !important;
 }
 
 .mybrand:hover{
