@@ -116,8 +116,12 @@ iframe{
 }
 
 .mybrand:hover{
-    color: #1ABC9C !important;
+    color: #1abc9c !important;
     text-decoration: none !important;
+}
+
+.mybrand:active{
+    color: #16a085 !important;
 }
 
 .nav-link{
