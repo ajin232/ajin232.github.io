@@ -96,14 +96,14 @@ iframe{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
     padding: 0.5rem 10% !important;
     box-shadow: 0px 2px 7px 3px rgba(36,42,46, 0.25); 
-    background-color: rgba(36, 42, 46, 0.875);
+    background-color: rgba(0, 0, 0, 0.875);
     backdrop-filter: blur(3.5px) !important;
     -webkit-backdrop-filter: blur(3.5px) !important;
     transition: background-color 0.25s ease;
 }
 
 .navbar:hover, .navbar:active{
-    background-color: #242a2e;
+    background-color: #000000;
     transition: background-color 0.25s ease;
 }
 
