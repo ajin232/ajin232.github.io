@@ -26,7 +26,13 @@ h1 {
     color: #ffffff;
 }
 
-h2 {
+h2 { /* formerly h3 in masthead */
+    font-size: 1.25rem !important; 
+    font-weight: 400;
+    color: #ffffff;
+}
+
+h3 { /* formerly h2 */
     font-size: 1.625rem !important;
     font-weight: 400;
     color: #16A085;
@@ -34,49 +40,38 @@ h2 {
     transition: color 0.25s ease;
 }
 
-h2:hover, h2:active{
+h3:hover, h3:active{
     color: #1ABC9C;
     transition: color 0.25s ease;
 }
 
-h3 {
-    font-size: 1.3rem !important; 
+h4 { /* formerly h3 in content */
+    font-size: 1.25rem !important; 
     font-weight: 600;
-}
-
-h4{
-    font-size: 1.875rem !important;
-    font-weight: 300;
-    color: #ffffff;
-    cursor: default;
-    transition: transform 0.33s ease, font-size 0.33s ease;
-}
-
-h4:hover, h4:active{
-    transform: translateX(12px);
-    transition: transform 0.33s ease, font-size 0.33s ease;
 }
 
 a{
     text-decoration: underline solid transparent;
-    color: #2980b9;
+    /* color: #2980b9; */
+    color: #277bb3;
     transition: all 0.25s ease;
 }
 
 a:hover, a:active{
-    color: #3498db;
-    text-decoration: underline solid #3498db;
+    /* color: #3498db; */
+    color: #318ecc;
+    text-decoration: underline solid #318ecc;
     transition: all 0.25s ease;
 }
 
 a:visited{
-    color: #2980b9;
+    color: #277bb3;
     transition: all 0.25s ease;
 }
 
 a:visited:hover, a:visited:active{
-    color: #3498db;
-    text-decoration: underline solid #3498db;
+    color: #318ecc;
+    text-decoration: underline solid #318ecc;
     transition: all 0.25s ease;
 }
 
@@ -184,10 +179,6 @@ iframe{
 
 .masthead h1{
     font-weight: 300;
-}
-
-.masthead h3{
-    color: #ffffff;    
 }
 
 .overlay {
@@ -372,8 +363,18 @@ iframe{
     color: #eceff1;
 }
 
-.resume h3{
-    font-weight: 400 !important;
+/* formerly h4, will now be .portfolio h3 */
+.portfolio h3{
+    font-size: 1.875rem !important;
+    font-weight: 300;
+    color: #ffffff;
+    cursor: default;
+    transition: transform 0.33s ease, font-size 0.33s ease;
+}
+
+.portfolio h3:hover, h3:active{
+    transform: translateX(12px);
+    transition: transform 0.33s ease, font-size 0.33s ease;
 }
 
 .gallery-prev{
@@ -423,7 +424,7 @@ iframe{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
     }
-    h4{
+    .portfolio h3{
         font-size: 1.625rem !important;
         transition: transform 0.33s ease, font-size 0.33s ease;
     }
