@@ -35,13 +35,15 @@ h2 { /* formerly h3 in masthead */
 h3 { /* formerly h2 */
     font-size: 1.625rem !important;
     font-weight: 400;
-    color: #16A085;
+    /* color: #16a085 */
+    color: #13866e;
     cursor: default;
     transition: color 0.25s ease;
 }
 
 h3:hover, h3:active{
-    color: #1ABC9C;
+    /*color: #1abc9c;*/
+    color: #18ae90;
     transition: color 0.25s ease;
 }
 
@@ -110,13 +112,9 @@ iframe{
     transition: color 0.33s ease !important;
 }
 
-.mybrand:hover{
-    color: #1abc9c !important;
+.mybrand:hover, .mybrand:active{
+    color: #18ae90 !important;
     text-decoration: none !important;
-}
-
-.mybrand:active{
-    color: #16a085 !important;
 }
 
 .nav-link{
