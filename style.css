@@ -443,7 +443,7 @@ iframe{
     }
 }
 
-@media (max-width: 1080px) and (pointer: coarse){
+@media pointer: coarse{
     .mastcontainer, .preview-section, .homemast{
         background-attachment: scroll !important;
     }
