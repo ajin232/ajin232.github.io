@@ -43,7 +43,7 @@ h3 { /* formerly h2 */
 
 h3:hover, h3:active{
     /*color: #1abc9c;*/
-    color: #18ae91;
+    color: #18af91;
     transition: color 0.25s ease;
 }
 
@@ -61,8 +61,8 @@ a{
 
 a:hover, a:active{
     /* color: #3498db; */
-    color: #318ecc;
-    text-decoration: underline solid #318ecc;
+    color: #3292d1;
+    text-decoration: underline solid #3292d1;
     transition: all 0.25s ease;
 }
 
@@ -72,8 +72,8 @@ a:visited{
 }
 
 a:visited:hover, a:visited:active{
-    color: #318ecc;
-    text-decoration: underline solid #318ecc;
+    color: #3292d1;
+    text-decoration: underline solid #3292d1;
     transition: all 0.25s ease;
 }
 
@@ -113,7 +113,7 @@ iframe{
 }
 
 .mybrand:hover, .mybrand:active{
-    color: #18ae91 !important;
+    color: #18af91 !important;
     text-decoration: none !important;
 }
 
