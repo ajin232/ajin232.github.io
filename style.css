@@ -43,7 +43,7 @@ h3 { /* formerly h2 */
 
 h3:hover, h3:active{
     /*color: #1abc9c;*/
-    color: #18ae90;
+    color: #18ae91;
     transition: color 0.25s ease;
 }
 
@@ -113,7 +113,7 @@ iframe{
 }
 
 .mybrand:hover, .mybrand:active{
-    color: #18ae90 !important;
+    color: #18ae91 !important;
     text-decoration: none !important;
 }
 
