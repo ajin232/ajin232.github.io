@@ -381,11 +381,11 @@ iframe{
 }
 
 .gallery-prev:hover{
-    filter: brightness(128%);
+    filter: brightness(125%);
 }
 
 .gallery-prev:active{
-    filter: brightness(114%);
+    filter: brightness(113%);
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
