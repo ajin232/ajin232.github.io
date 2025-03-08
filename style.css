@@ -370,7 +370,7 @@ iframe{
     transition: transform 0.33s ease, font-size 0.33s ease;
 }
 
-.portfolio h3:hover, h3:active{
+.portfolio h3:hover, .portfolio h3:active{
     transform: translateX(12px);
     transition: transform 0.33s ease, font-size 0.33s ease;
 }
