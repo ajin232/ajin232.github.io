@@ -22,7 +22,7 @@ p {
 }
 
 h1 {
-    font-size: 2.75rem !important; 
+    font-size: 2.75rem; 
     color: #ffffff;
 }
 
@@ -169,7 +169,7 @@ iframe{
     height: 20%; 
     vertical-align: middle;
     cursor:default;
-    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.33);
+    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.35);
     line-height: normal; 
     margin-left: 40px;
     margin-right: 40px;
@@ -181,7 +181,7 @@ iframe{
 
 #overlay {
     position: fixed;
-    bottom: 60%;
+    bottom: 61%;
     width: 100%;
     margin: auto;
     background-color: transparent;
@@ -196,7 +196,7 @@ iframe{
     margin: 0px auto;
     padding-bottom: 4px;
     text-align: center;
-    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.33);
+    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.35);
     transition: font-size 0.5s ease;
 }
 
@@ -239,7 +239,7 @@ iframe{
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: 300;
-    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.33);
+    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.35);
     transition: font-size 0.25s ease, width 0.25s ease;
 }
 

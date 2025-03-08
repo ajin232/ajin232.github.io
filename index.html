@@ -28,13 +28,13 @@
         </nav>
         <main>
             <div id = "overlay">
-                <div class = "overlay-inner">Welcome to my website!</div>
+                <h1 class = "overlay-inner">Welcome to my website!</h1>
             </div>
             <div id = "overlay2">
                 <div class = "overlay-inner" style = "font-size: 1.25rem !important; font-style: italic;">Feel free to scroll down</div>
             </div>
             <div class = "wrapper_full">
-                <div style = "background-image: url(images/punchcard.jpg)" class = "homemast"><div style = "height: 100%; width: 100%; background-color: rgba(0,0,0, 0.35);"></div></div>
+                <div style = "background-image: url(images/punchcard.jpg)" class = "homemast"><div style = "height: 100%; width: 100%; background-color: rgba(0,0,0, 0.36);"></div></div>
                 <div style = "background-image: url(images/mckeldin.jpg); background-position: center 15%" class = "preview-section" id = "second">
                     <div class = "preview-inner">
                         <table class = "preview-table">
@@ -67,10 +67,10 @@
             let second = document.getElementById("second");
             let header2 = document.getElementById("overlay2")
             function textScroll() {
-                let landmark = second.offsetTop - (window.innerHeight * 0.39);
+                let landmark = second.offsetTop - (window.innerHeight * 0.395);
                 let landmark2 = window.innerHeight * 0.01;
                 if (window.pageYOffset > landmark) {
-                    let newbottom_int = (60 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
+                    let newbottom_int = (61 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
                     if (newbottom_int > 105){
                         newbottom_int = 105;
                     }
@@ -83,7 +83,7 @@
                     let newopacity = newopacity_int + "%";
                     header.style.opacity = newopacity;
                 } else {
-                    header.style.bottom = "60%";
+                    header.style.bottom = "61%";
                     header.style.opacity = "100%";
                 }
                 if (window.pageYOffset > landmark2){
