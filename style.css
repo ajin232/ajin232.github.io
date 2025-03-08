@@ -179,7 +179,7 @@ iframe{
     font-weight: 300;
 }
 
-.overlay {
+#overlay {
     position: fixed;
     bottom: 60%;
     width: 100%;
@@ -200,7 +200,7 @@ iframe{
     transition: font-size 0.5s ease;
 }
 
-.overlay2 {
+#overlay2 {
     position: fixed;
     bottom: 21%;
     width: 100%;
@@ -221,7 +221,7 @@ iframe{
 .preview-inner{
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0, 0.1);
+    background: rgba(0,0,0, 0.125);
     transition: background 0.25s ease;
 }
 
