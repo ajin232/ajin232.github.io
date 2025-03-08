@@ -26,45 +26,47 @@
                 </div>
               </div> 
         </nav>
-        <div class = "overlay" id = "overlay">
-            <div class = "overlay-inner">Welcome to my website!</div>
-        </div>
-        <div class = "overlay2" id = "overlay2">
-            <div class = "overlay-inner" style = "font-size: 1.25rem !important; font-style: italic;">Feel free to scroll down</div>
-        </div>
-        <div class = "wrapper_full">
-            <div style = "background-image: url(images/mckeldin.jpg)" class = "homemast"><div style = "height: 100%; width: 100%; background-image: linear-gradient(to bottom, rgba(0,0,0,0) 67%, rgba(0,0,0,0.33) 100%);"></div></div>
-            <div style = "background-image: url(images/laptop2.jpg);" class = "preview-section" id = "second">
-                <div class = "preview-inner">
-                    <table class = "preview-table">
-                        <tr onclick = "location.href='resume.html'">
-                            <td class = "ptitle"><a href = "resume.html" class = "ptitlea">View my resume</a></td>
-                            <td class = "parrow"><p class = "parrowp">&#8594;</p></td>
-                        </tr>
-                    </table>
+        <main>
+            <div class = "overlay" id = "overlay">
+                <div class = "overlay-inner">Welcome to my website!</div>
+            </div>
+            <div class = "overlay2" id = "overlay2">
+                <div class = "overlay-inner" style = "font-size: 1.25rem !important; font-style: italic;">Feel free to scroll down</div>
+            </div>
+            <div class = "wrapper_full">
+                <div style = "background-image: url(images/mckeldin.jpg)" class = "homemast"><div style = "height: 100%; width: 100%; background-image: linear-gradient(to bottom, rgba(0,0,0,0) 67%, rgba(0,0,0,0.33) 100%);"></div></div>
+                <div style = "background-image: url(images/laptop2.jpg);" class = "preview-section" id = "second">
+                    <div class = "preview-inner">
+                        <table class = "preview-table">
+                            <tr onclick = "location.href='resume.html'">
+                                <td class = "ptitle"><a href = "resume.html" class = "ptitlea">View my resume</a></td>
+                                <td class = "parrow"><p class = "parrowp">&#8594;</p></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
+                <div style = "background-image: url(images/interview.jpg); background-position: 60% center" class = "preview-section">
+                    <div class = "preview-inner">
+                        <table class = "preview-table">
+                            <tr onclick = "location.href='portfolio.html'">
+                                <td class = "ptitle"><a href = "portfolio.html" class = "ptitlea">View my portfolio</a></td>
+                                <td class = "parrow"><p class = "parrowp">&#8594;</p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>    
             </div>
-            <div style = "background-image: url(images/interview.jpg); background-position: 60% center" class = "preview-section">
-                <div class = "preview-inner">
-                    <table class = "preview-table">
-                        <tr onclick = "location.href='portfolio.html'">
-                            <td class = "ptitle"><a href = "portfolio.html" class = "ptitlea">View my portfolio</a></td>
-                            <td class = "parrow"><p class = "parrowp">&#8594;</p></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class = "footer">
-                <br/>
-                <p class = "meow">&copy; Copyright 2025</p>
-            </div>
-        </div>
+        </main>
+        <footer class = "footer">
+            <br/>
+            <p class = "meow">&copy; Copyright 2025</p>
+        </footer>
         <script type = "text/javascript">
-        window.onscroll = function() {myFunction()};
+            window.onscroll = function() {textScroll()};
             let header = document.getElementById("overlay");
             let second = document.getElementById("second");
             let header2 = document.getElementById("overlay2")
-            function myFunction() {
+            function textScroll() {
                 let landmark = second.offsetTop - (window.innerHeight * 0.39);
                 let landmark2 = window.innerHeight * 0.01;
                 if (window.pageYOffset > landmark) {
