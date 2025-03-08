@@ -169,7 +169,7 @@ iframe{
     height: 20%; 
     vertical-align: middle;
     cursor:default;
-    text-shadow: 2px 2px 8px #000000;
+    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.33);
     line-height: normal; 
     margin-left: 40px;
     margin-right: 40px;
@@ -196,7 +196,7 @@ iframe{
     margin: 0px auto;
     padding-bottom: 4px;
     text-align: center;
-    text-shadow: 2px 2px 7px #000000;
+    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.33);
     transition: font-size 0.5s ease;
 }
 
@@ -221,12 +221,12 @@ iframe{
 .preview-inner{
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0, 0.125);
+    background: rgba(0,0,0, 0.25);
     transition: background 0.25s ease;
 }
 
 .preview-inner:hover, .preview-inner:active{
-    background: rgba(0,0,0, 0.65);
+    background: rgba(0,0,0, 0.65) !important;
     transition: background 0.25s ease;
 }
 
@@ -239,7 +239,7 @@ iframe{
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: 300;
-    text-shadow: 2px 2px 7px #000000;
+    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.33);
     transition: font-size 0.25s ease, width 0.25s ease;
 }
 
@@ -443,7 +443,7 @@ iframe{
     }
 }
 
-@media pointer: coarse{
+@media (pointer: coarse){
     .mastcontainer, .preview-section, .homemast{
         background-attachment: scroll !important;
     }
