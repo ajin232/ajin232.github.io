@@ -221,12 +221,12 @@ iframe{
 .preview-inner{
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0,0,0, 0.225);
     transition: background 0.25s ease;
 }
 
 .preview-inner:hover, .preview-inner:active{
-    background: rgba(0,0,0, 0.65) !important;
+    background: rgba(0,0,0, 0.67) !important;
     transition: background 0.25s ease;
 }
 
