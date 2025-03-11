@@ -88,6 +88,15 @@ iframe{
     
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+    /*background: #242a2e;*/
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 75px;
+    cursor: default;
+}
+
 /* custom classes */
 .navbar{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
@@ -344,15 +353,6 @@ iframe{
     font-style: italic;
     text-align: center;
 }*/
-
-.footer{
-    width: 100%;
-    text-align: center;
-    /*background: #242a2e;*/
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 75px;
-    cursor: default;
-}
 
 .meow{
     font-size: 12pt !important; 
