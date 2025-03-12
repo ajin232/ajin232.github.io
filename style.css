@@ -156,7 +156,7 @@ footer{
 }*/
 
 .homemast{
-    height: 76vh; 
+    height: 75vh; 
     min-height: 300px;
     background-size: cover; 
     background-position: 55% 20%;
@@ -225,7 +225,7 @@ footer{
 }
 
 .preview-section{
-    height: 55vh; 
+    height: 50vh; 
     min-height: 200px;
     background: no-repeat center center;
     background-attachment: fixed;
