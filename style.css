@@ -61,8 +61,8 @@ a{
 
 a:hover, a:active{
     /* color: #3498db; */
-    color: #3292d1;
-    text-decoration: underline solid #3292d1;
+    color: #3395d6;
+    text-decoration: underline solid #3395d6;
     transition: all 0.25s ease;
 }
 
@@ -72,8 +72,8 @@ a:visited{
 }
 
 a:visited:hover, a:visited:active{
-    color: #3292d1;
-    text-decoration: underline solid #3292d1;
+    color: #3395d6;
+    text-decoration: underline solid #3395d6;
     transition: all 0.25s ease;
 }
 
