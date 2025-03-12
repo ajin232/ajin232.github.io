@@ -116,7 +116,7 @@ footer{
 .mybrand{
     color: #ffffff !important;
     font-size: 1.75rem; 
-    padding-top: 2px;
+    padding-top: 0px;
     text-decoration: none !important;
     transition: color 0.33s ease !important;
     margin-right: 1.125rem !important;
