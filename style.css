@@ -138,7 +138,7 @@ footer{
     font-weight: 300;
 }
 
-.nav-link:hover{
+.nav-link:hover, .nav-link:active{
     color: #ffffff !important;
     text-decoration: underline solid #ffffff !important;
     text-underline-offset: 0.25rem;
