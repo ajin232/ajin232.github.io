@@ -10,7 +10,7 @@ body{
     /*background-image: linear-gradient(to bottom right, #dee4e7, #bfcbd0); */
     background-image: linear-gradient(to bottom right, #eceff1, #cfd8dc);
     margin-top: 0px; 
-    margin-left: 0px; 
+    margin-left: 0px;
     overflow-x: hidden !important;
 }    
 p {
@@ -100,7 +100,7 @@ footer{
 /* custom classes */
 .navbar{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
-    padding: 0.5rem 10% !important;
+    padding: 0.625rem 10% !important;
     box-shadow: 0px 2px 7px 3px rgba(36,42,46, 0.25); 
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(3px) !important;
@@ -115,10 +115,11 @@ footer{
 
 .mybrand{
     color: #ffffff !important;
-    font-size: 1.625rem; 
+    font-size: 1.75rem; 
     padding-top: 2px;
     text-decoration: none !important;
     transition: color 0.33s ease !important;
+    margin-right: 1.125rem !important;
 }
 
 .mybrand:hover, .mybrand:active{
@@ -127,16 +128,20 @@ footer{
 }
 
 .nav-link{
+    font-size: 1.3125rem !important;
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
     text-decoration: underline solid transparent;
     transition: all 0.33s ease;
     color: #cfd8dc !important;
+    text-underline-offset: 0.25rem;
+    font-weight: 300;
 }
 
 .nav-link:hover{
     color: #ffffff !important;
     text-decoration: underline solid #ffffff !important;
+    text-underline-offset: 0.25rem;
     transition: all 0.33s ease;
 }
 
