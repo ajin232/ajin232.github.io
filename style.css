@@ -157,7 +157,7 @@ footer{
 
 .homemast{
     height: 77.5vh; 
-    min-height: 305px;
+    min-height: 300px;
     background-size: cover; 
     background-position: 55% 20%;
     background-attachment: fixed;
