@@ -131,18 +131,28 @@ footer{
     font-size: 1.3125rem !important;
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
-    text-decoration: underline solid transparent;
+    text-decoration: underline solid 1.5px transparent;
+    -webkit-text-decoration: underline solid transparent;
+    text-underline-offset: 4px;
     transition: all 0.33s ease;
     color: #cfd8dc !important;
-    text-underline-offset: 0.25rem;
     font-weight: 300;
 }
 
 .nav-link:hover, .nav-link:active{
     color: #ffffff !important;
-    text-decoration: underline solid #ffffff !important;
-    text-underline-offset: 0.25rem;
+    text-decoration: underline solid 1.5px #ffffff !important;
+    -webkit-text-decoration: underline solid #ffffff !important;
+    text-underline-offset: 4px;
     transition: all 0.33s ease;
+}
+
+.currentpage {
+    cursor: default; 
+    color: #ffffff !important; 
+    text-decoration: underline solid 1.5px #ffffff !important; 
+    -webkit-text-decoration: underline solid #ffffff !important; 
+    text-underline-offset: 4px;
 }
 
 /*.logo{
