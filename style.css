@@ -33,18 +33,18 @@ h2 { /* formerly h3 in masthead */
 }
 
 h3 { /* formerly h2 */
-    font-size: 1.625rem !important;
-    font-weight: 400;
+    font-size: 1.75rem !important;
+    font-weight: 300;
     /* color: #16a085 */
     color: #13866e;
     cursor: default;
-    transition: color 0.25s ease;
+    transition: color 0.3s ease;
 }
 
 h3:hover, h3:active{
     /*color: #1abc9c;*/
     color: #18af91;
-    transition: color 0.25s ease;
+    transition: color 0.3s ease;
 }
 
 h4 { /* formerly h3 in content */
@@ -376,18 +376,22 @@ footer{
     color: #eceff1;
 }
 
-/* formerly h4, will now be .portfolio h3 */
-.portfolio h3{
-    font-size: 1.875rem !important;
-    font-weight: 300;
-    color: #ffffff;
-    cursor: default;
-    transition: transform 0.33s ease, font-size 0.33s ease;
+.sectiontitle{
+    background-color: #13866e;
+    margin-bottom: 0.75rem;
 }
 
-.portfolio h3:hover, .portfolio h3:active{
-    transform: translateX(12px);
-    transition: transform 0.33s ease, font-size 0.33s ease;
+/* formerly h4, will now be .sectiontitle h3 */
+.sectiontitle h3{
+    color: #ffffff;
+    padding: 20px 0px;
+    margin: 0px;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.sectiontitle h3:hover, .sectiontitle h3:active{
+    transform: translateX(10px);
+    transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
 .gallery-prev{
@@ -437,7 +441,7 @@ footer{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
     }
-    .portfolio h3{
+    .sectiontitle h3{
         font-size: 1.625rem !important;
         transition: transform 0.33s ease, font-size 0.33s ease;
     }
