@@ -33,7 +33,7 @@ h2 { /* formerly h3 in masthead */
 h3 { /* formerly h2 */
     font-size: 1.75rem !important;
     font-weight: 300;
-    color: #13866e;
+    color: #13856e;
     cursor: default;
     transition: color 0.3s ease;
 }
@@ -124,7 +124,7 @@ footer{
 }
 
 .mybrand:active{
-    color: #13866e !important;
+    color: #13856e !important;
 }
 
 .nav-link{
@@ -169,7 +169,7 @@ footer{
     cursor:default;
     line-height: normal; 
     padding: max(3.75vh, 20px) 3.125%;
-    background-color: #13866e;
+    background-color: #13856e;
 }
 
 .masthead h1{
@@ -323,7 +323,7 @@ footer{
 #mainwrap{
     border-radius: 6px;
     background-color: rgba(255,255,255, 0.93) !important;
-    border: 1px solid #13866e;
+    border: 1px solid #13856e;
     overflow: hidden;
     margin-top: 0px;
     transition: border-radius 0.25s linear, margin-top 0.25s linear;
@@ -388,7 +388,7 @@ footer{
 }
 
 .sectiontitle{
-    background-color: #13866e;
+    background-color: #13856e;
     margin-bottom: 0.75rem;
 }
 
