@@ -161,7 +161,7 @@ footer{
     width: 100%;
     height: calc(100% - 65px);
     background-size: cover;
-    background-position: center;
+    background-position: center 0%;
 }
 
 .masthead{ /* sets styling for masthead text */
