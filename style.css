@@ -313,7 +313,7 @@ footer{
 
 .mainwrap{
     border-radius: 5px;
-    background-color: rgba(255,255,255, 0.94) !important;
+    background-color: rgba(255,255,255, 0.93) !important;
     border: 1px solid #13866e;
     overflow: hidden;
     transition: border-radius 0.25s linear;
