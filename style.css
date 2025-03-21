@@ -315,12 +315,12 @@ footer{
 
 .mainwrap{
     border-radius: 6px;
-    background-color: rgba(255,255,255, 0.925) !important;
+    background-color: rgba(255,255,255, 0.93) !important;
     border: 1px solid #13866e;
     overflow: hidden;
     transition: border-radius 0.25s linear;
-    backdrop-filter: blur(2px) !important;
-    -webkit-backdrop-filter: blur(2px) !important;
+    backdrop-filter: blur(1.5px) !important;
+    -webkit-backdrop-filter: blur(1.5px) !important;
 }
 
 .wrapper_full{
