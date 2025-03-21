@@ -5,9 +5,8 @@ html{
 
 body{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
-    background-color: #ffffff;
+    background-color: #ecf0f1;
     color: #000000;
-    background-image: linear-gradient(to bottom right, #ffffff, #eceff1);
     margin-top: 0px; 
     margin-left: 0px;
     overflow-x: hidden !important;
@@ -34,7 +33,6 @@ h2 { /* formerly h3 in masthead */
 h3 { /* formerly h2 */
     font-size: 1.75rem !important;
     font-weight: 300;
-    /* color: #16a085 */
     color: #13866e;
     cursor: default;
     transition: color 0.3s ease;
@@ -54,7 +52,7 @@ h4 { /* formerly h3 in content */
 a{
     text-decoration: underline solid transparent;
     /* color: #2980b9; */
-    color: #277bb3;
+    color: #2471a4;
     transition: all 0.25s ease;
 }
 
@@ -66,7 +64,7 @@ a:hover, a:active{
 }
 
 a:visited{
-    color: #277bb3;
+    color: #2471a4;
     transition: all 0.25s ease;
 }
 
@@ -154,15 +152,15 @@ footer{
     text-underline-offset: 4px;
 }
 
-/*.logo{
-    text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 2.25em; 
-    vertical-align: middle;
-    transition: all 0.35s ease;
-}*/
+.bg{
+    z-index: -1;
+    position: fixed;
+    left: 0px;
+    top: 64px;
+    width: 100%;
+    height: calc(100% - 64px);
+    background-size: cover;
+}
 
 .homemast{
     height: 75vh; 
@@ -173,7 +171,8 @@ footer{
     background-repeat: no-repeat;
 }
 
-.mastcontainer{ /* sets size, alignment, and background of masthead banner */
+/* sets size, alignment, and background of masthead banner */
+/*.mastcontainer{ 
     height: 39vh; 
     min-height: 245px;
     max-height: 40vw;
@@ -186,16 +185,14 @@ footer{
     position: relative;
     z-index: 10;
     box-shadow: 0px 2px 5px 3px rgba(0,0,0, 0.3);
-}
+}*/
 
 .masthead{ /* sets styling for masthead text */
-    height: 20%; 
     vertical-align: middle;
     cursor:default;
-    text-shadow: 2px 2px 7px #000000, 0px 0px 5px rgba(0,0,0, 0.4);
     line-height: normal; 
-    margin-left: 40px;
-    margin-right: 40px;
+    padding: max(4vh, 25px) 3.125%;
+    background-color: #13866e;
 }
 
 .masthead h1{
@@ -311,9 +308,17 @@ footer{
     min-width: 360px !important;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
     background-color: transparent;
-    /*box-shadow: 0px 2px 5px 3px rgba(36,42,46, 0.25);*/
+}
+
+.mainwrap{
+    border-radius: 5px;
+    background-color: rgba(255,255,255, 0.94) !important;
+    border: 1px solid #13866e;
+    overflow: hidden;
+    transition: border-radius 0.25s linear;
+    backdrop-filter: blur(3px) !important;
+    -webkit-backdrop-filter: blur(3px) !important;
 }
 
 .wrapper_full{
@@ -328,6 +333,7 @@ footer{
     min-width: 345px;
     padding: 0px;
     margin: 0px auto;
+    background-color: transparent;
 }
 
 .content_dark{
@@ -346,11 +352,7 @@ footer{
 
 .chapter{
     width: 100% !important;
-    background-color: inherit;
-}
-
-.highlight{
-    background-color: #eceff1 !important;
+    background-color: transparent;
 }
 
 .dark{
@@ -385,8 +387,6 @@ footer{
 .sectiontitle{
     background-color: #13866e;
     margin-bottom: 0.75rem;
-    border-radius: 6px;
-    transition: border-radius 0.25s ease;
 }
 
 footer .col, footer .col-6{
@@ -434,6 +434,9 @@ footer .col, footer .col-6{
     .wrapper{
         transition: width 0.25s linear;
     }
+    .mainwrap{
+        transition: border-radius 0.25s linear, width 0.25s linear;
+    }
     .preview-table{
         font-size: 2rem;
         width: 80%;
@@ -461,10 +464,6 @@ footer .col, footer .col-6{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
     }
-    .sectiontitle{
-        border-radius: 0px;
-        transition: border-radius 0.25s ease;
-    }
     .sectiontitle h3{
         font-size: 1.625rem !important;
         transition: transform 0.33s ease, font-size 0.33s ease;
@@ -472,6 +471,11 @@ footer .col, footer .col-6{
     .wrapper{
         width: 100%;
         transition: width 0.25s linear;
+    }
+    .mainwrap{
+        border-radius: 0px;
+        border: none;
+        transition: border-radius 0.25s linear, width 0.25s linear;
     }
     .navbar{
         padding: 0.5625rem 3.125% !important;
@@ -491,7 +495,7 @@ footer .col, footer .col-6{
 }
 
 @media (pointer: coarse){
-    .mastcontainer, .preview-section, .homemast{
+    .preview-section, .homemast{
         background-attachment: scroll !important;
     }
 }
