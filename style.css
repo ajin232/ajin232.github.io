@@ -478,7 +478,7 @@ footer .col, footer .col-6{
     #mainwrap{
         border-radius: 0px;
         border: none;
-        margin-top: 50px;
+        margin-top: 56px;
         transition: border-radius 0.25s linear, width 0.25s linear, margin-top 0.25s linear;
     }
     .navbar{
