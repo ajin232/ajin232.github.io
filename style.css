@@ -5,10 +5,9 @@ html{
 
 body{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
-    background-color: #cfd8dc;
+    background-color: #ffffff;
     color: #000000;
-    /*background-image: linear-gradient(to bottom right, #dee4e7, #bfcbd0); */
-    background-image: linear-gradient(to bottom right, #eceff1, #cfd8dc);
+    background-image: linear-gradient(to bottom right, #ffffff, #eceff1);
     margin-top: 0px; 
     margin-left: 0px;
     overflow-x: hidden !important;
@@ -186,7 +185,7 @@ footer{
     background-size: cover;
     position: relative;
     z-index: 10;
-    box-shadow: 0px 4px 5px 0px rgba(36,42,46, 0.25);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0, 0.3);
 }
 
 .masthead{ /* sets styling for masthead text */
@@ -313,7 +312,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    background-color: #ffffff;
+    background-color: transparent;
     /*box-shadow: 0px 2px 5px 3px rgba(36,42,46, 0.25);*/
 }
 
@@ -386,6 +385,8 @@ footer{
 .sectiontitle{
     background-color: #13866e;
     margin-bottom: 0.75rem;
+    border-radius: 6px;
+    transition: border-radius 0.25s ease;
 }
 
 footer .col, footer .col-6{
@@ -456,9 +457,13 @@ footer .col, footer .col-6{
         width: 37.5%;
         max-width: 37.5%;
     }
-    .overlay-inner {
+    .overlay-inner{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
+    }
+    .sectiontitle{
+        border-radius: 0px;
+        transition: border-radius 0.25s ease;
     }
     .sectiontitle h3{
         font-size: 1.625rem !important;
