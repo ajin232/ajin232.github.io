@@ -164,6 +164,18 @@ footer{
     background-size: cover;
 }
 
+.masthead{ /* sets styling for masthead text */
+    vertical-align: middle;
+    cursor:default;
+    line-height: normal; 
+    padding: max(3.75vh, 20px) 3.125%;
+    background-color: #13866e;
+}
+
+.masthead h1{
+    font-weight: 300;
+}
+
 .homemast{
     height: 75vh; 
     min-height: 300px;
@@ -188,18 +200,6 @@ footer{
     z-index: 10;
     box-shadow: 0px 2px 5px 3px rgba(0,0,0, 0.3);
 }*/
-
-.masthead{ /* sets styling for masthead text */
-    vertical-align: middle;
-    cursor:default;
-    line-height: normal; 
-    padding: max(4vh, 25px) 3.125%;
-    background-color: #13866e;
-}
-
-.masthead h1{
-    font-weight: 300;
-}
 
 #overlay {
     position: fixed;
@@ -313,21 +313,22 @@ footer{
     background-color: transparent;
 }
 
-.mainwrap{
-    border-radius: 6px;
-    background-color: rgba(255,255,255, 0.93) !important;
-    border: 1px solid #13866e;
-    overflow: hidden;
-    transition: border-radius 0.25s linear;
-    backdrop-filter: blur(1.5px) !important;
-    -webkit-backdrop-filter: blur(1.5px) !important;
-}
-
 .wrapper_full{
     width: 100%;
     margin-bottom: 0px;
     background-color: #ffffff;
     height: auto;
+}
+
+#mainwrap{
+    border-radius: 6px;
+    background-color: rgba(255,255,255, 0.93) !important;
+    border: 1px solid #13866e;
+    overflow: hidden;
+    margin-top: 0px;
+    transition: border-radius 0.25s linear, margin-top 0.25s linear;
+    backdrop-filter: blur(1.5px) !important;
+    -webkit-backdrop-filter: blur(1.5px) !important;
 }
 
 .content{
@@ -436,8 +437,8 @@ footer .col, footer .col-6{
     .wrapper{
         transition: width 0.25s linear;
     }
-    .mainwrap{
-        transition: border-radius 0.25s linear, width 0.25s linear;
+    #mainwrap{
+        transition: border-radius 0.25s linear, width 0.25s linear, margin-top 0.25s linear;
     }
     .preview-table{
         font-size: 2rem;
@@ -474,10 +475,11 @@ footer .col, footer .col-6{
         width: 100%;
         transition: width 0.25s linear;
     }
-    .mainwrap{
+    #mainwrap{
         border-radius: 0px;
         border: none;
-        transition: border-radius 0.25s linear, width 0.25s linear;
+        margin-top: 50px;
+        transition: border-radius 0.25s linear, width 0.25s linear, margin-top 0.25s linear;
     }
     .navbar{
         padding: 0.5625rem 3.125% !important;
