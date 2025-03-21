@@ -82,7 +82,6 @@ img{
 
 iframe{
     border: none;
-    
 }
 
 footer{
@@ -170,6 +169,7 @@ footer{
     line-height: normal; 
     padding: max(3.75vh, 20px) 3.125%;
     background-color: #13856e;
+    margin-bottom: 0.75rem;
 }
 
 .masthead h1{
@@ -362,6 +362,24 @@ footer{
     background-color: #263238 !important;;
 }
 
+.highlight{
+    background-color: #13856e;
+    margin-bottom: 0.75rem;
+}
+
+/* formerly h4, will now be .highlight h3 */
+.highlight h3{
+    color: #ffffff;
+    padding: 20px 0px;
+    margin: 0px;
+    transition: transform 0.33s ease, font-size 0.33s ease;
+}
+
+.highlight h3:hover, .highlight h3:active{
+    transform: translateX(10px);
+    transition: transform 0.33s ease, font-size 0.33s ease;
+}
+
 /*.citation{
     font-family: Helvetica, sans-serif;
     font-size: 11pt;
@@ -387,11 +405,6 @@ footer{
     transition: color 0.33s ease;
 }
 
-.sectiontitle{
-    background-color: #13856e;
-    margin-bottom: 0.75rem;
-}
-
 footer .col, footer .col-6{
     margin: auto;
 }
@@ -402,19 +415,6 @@ footer .col, footer .col-6{
     width: 100%; 
     min-width: 345px;
     transition: width 0.25s linear;
-}
-
-/* formerly h4, will now be .sectiontitle h3 */
-.sectiontitle h3{
-    color: #ffffff;
-    padding: 20px 0px;
-    margin: 0px;
-    transition: transform 0.33s ease, font-size 0.33s ease;
-}
-
-.sectiontitle h3:hover, .sectiontitle h3:active{
-    transform: translateX(10px);
-    transition: transform 0.33s ease, font-size 0.33s ease;
 }
 
 .gallery-prev{
@@ -467,7 +467,7 @@ footer .col, footer .col-6{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
     }
-    .sectiontitle h3{
+    .highlight h3{
         font-size: 1.625rem !important;
         transition: transform 0.33s ease, font-size 0.33s ease;
     }
