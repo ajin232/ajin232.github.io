@@ -52,7 +52,7 @@ h4 { /* formerly h3 in content */
 a{
     text-decoration: underline solid transparent;
     /* color: #2980b9; */
-    color: #2470a3;
+    color: #2471a5;
     transition: all 0.25s ease;
 }
 
@@ -64,7 +64,7 @@ a:hover, a:active{
 }
 
 a:visited{
-    color: #2470a3;
+    color: #2471a5;
     transition: all 0.25s ease;
 }
 
