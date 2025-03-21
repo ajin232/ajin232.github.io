@@ -58,8 +58,8 @@ a{
 
 a:hover, a:active{
     /* color: #3498db; */
-    color: #3395d6;
-    text-decoration: underline solid #3395d6;
+    color: #3393d4;
+    text-decoration: underline solid #3393d4;
     transition: all 0.25s ease;
 }
 
@@ -69,8 +69,8 @@ a:visited{
 }
 
 a:visited:hover, a:visited:active{
-    color: #3395d6;
-    text-decoration: underline solid #3395d6;
+    color: #3393d4;
+    text-decoration: underline solid #3393d4;
     transition: all 0.25s ease;
 }
 
@@ -93,11 +93,40 @@ footer{
     cursor: default;
 }
 
+button{
+    color: #2472a6;
+    border: 1.5px solid #2472a6;
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 0.25rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    box-shadow: none;
+    white-space: nowrap;
+    transition: all 0.25s ease;
+}
+
+button:hover, button:focus{
+    color: #ffffff;
+    background-color: #3393d4;
+    border: 1.5px solid #3393d4;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
+    transition: all 0.25s ease;
+}
+
+button:active{
+    color: #ffffff;
+    background-color: #2472a6;
+    border: 1.5px solid #2472a6;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
+    transition: all 0.25s ease;
+}
+
 /* custom classes */
 .navbar{
     font-family: "myriad-pro", Helvetica, sans-serif !important;
     padding: 0.5625rem 10% !important;
-    box-shadow: 0px 2px 7px 3px rgba(36,42,46, 0.25); 
+    box-shadow: 0px 2px 7px 3px rgba(0,0,0, 0.25); 
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(3px) !important;
     -webkit-backdrop-filter: blur(3px) !important;
@@ -307,7 +336,7 @@ footer{
 
 .wrapper{
     height: auto;  
-    width: 80vw; 
+    width: 80%; 
     min-width: 360px !important;
     margin-left: auto;
     margin-right: auto;
@@ -388,6 +417,22 @@ footer{
     text-align: center;
 }*/
 
+button .caret{
+    transform: none;
+    transition: transform 0.25s ease;
+    display: inline-block;
+}
+
+button:hover .caret, button:active .caret{
+    transform: translateX(3px);
+    transition: transform 0.25s ease;
+}
+
+.btncol{
+    display: flex; 
+    margin-bottom: 16px;
+}
+
 .meow{
     font-size: 16px !important; 
     font-style: italic; 
@@ -401,7 +446,7 @@ footer{
     transition: color 0.33s ease;
 }
 
-.icon:hover, .icon:active{
+.icon:hover, .icon:active, .icon: focus{
     color: #ffffff !important;
     transition: color 0.33s ease;
 }
@@ -418,6 +463,7 @@ footer .col, footer .col-6{
     transition: width 0.25s linear;
 }
 
+/*
 .gallery-prev{
     transition: filter 0.25s ease !important;
 }
@@ -429,6 +475,7 @@ footer .col, footer .col-6{
 .gallery-prev:active{
     filter: brightness(113%);
 }
+*/
 
 @media (min-width: 576px) and (max-width: 767.99px){
     .overlay-inner {
