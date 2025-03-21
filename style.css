@@ -119,9 +119,12 @@ footer{
     margin-right: 1.125rem !important;
 }
 
-.mybrand:hover, .mybrand:active{
+.mybrand:hover{
     color: #18af91 !important;
-    text-decoration: none !important;
+}
+
+.mybrand:active{
+    color: #13866e !important;
 }
 
 .nav-link{
