@@ -148,7 +148,6 @@ footer{
 }
 
 .currentpage {
-    cursor: default; 
     color: #ffffff !important; 
     text-decoration: underline solid 1.5px #ffffff !important; 
     -webkit-text-decoration: underline solid #ffffff !important; 
