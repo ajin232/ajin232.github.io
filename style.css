@@ -243,12 +243,12 @@ footer{
 .preview-inner{
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0, 0.225);
+    background: rgba(0,0,0, 0.25);
     transition: background 0.25s ease;
 }
 
 .preview-inner:hover, .preview-inner:active{
-    background: rgba(0,0,0, 0.67) !important;
+    background: rgba(0,0,0, 0.65) !important;
     transition: background 0.25s ease;
 }
 
