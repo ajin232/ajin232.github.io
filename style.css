@@ -158,9 +158,9 @@ footer{
     z-index: -1;
     position: fixed;
     left: 0px;
-    top: 64px;
+    top: 65px;
     width: 100%;
-    height: calc(100% - 64px);
+    height: calc(100% - 65px);
     background-size: cover;
 }
 
