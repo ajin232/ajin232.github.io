@@ -317,8 +317,8 @@ footer{
     border: 1px solid #13866e;
     overflow: hidden;
     transition: border-radius 0.25s linear;
-    backdrop-filter: blur(3px) !important;
-    -webkit-backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(2px) !important;
+    -webkit-backdrop-filter: blur(2px) !important;
 }
 
 .wrapper_full{
