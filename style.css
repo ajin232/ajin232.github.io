@@ -226,7 +226,7 @@ footer{
 
 #overlay2 {
     position: fixed;
-    bottom: 21%;
+    bottom: 19%;
     width: 100%;
     margin: auto;
     background-color: transparent;
@@ -234,9 +234,13 @@ footer{
     opacity: 100%;
 }
 
-#overlay2 .overlay-inner {
-    font-size: 1.5rem !important;
+#o2text{
+    font-size: 1.25rem !important;
     font-weight: 400;
+    padding: 8px;
+    border-radius: 6px;
+    font-style: italic;
+    background-color: rgba(0,0,0, 0.2);
 }
 
 .preview-section{
@@ -513,10 +517,6 @@ footer .col, footer .col-6{
     .overlay-inner{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
-    }
-    #overlay2 .overlay-inner {
-        font-size: 1.5rem !important;
-        font-weight: 300;
     }
     .highlight h3{
         font-size: 1.625rem !important;
