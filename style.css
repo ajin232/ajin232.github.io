@@ -234,6 +234,11 @@ footer{
     opacity: 100%;
 }
 
+#overlay2 .overlay-inner {
+    font-size: 1.5rem !important;
+    font-weight: 400;
+}
+
 .preview-section{
     height: 50vh; 
     min-height: 200px;
@@ -508,6 +513,10 @@ footer .col, footer .col-6{
     .overlay-inner{
         font-size: 2rem !important;
         transition: font-size 0.5s ease;
+    }
+    #overlay2 .overlay-inner {
+        font-size: 1.5rem !important;
+        font-weight: 300;
     }
     .highlight h3{
         font-size: 1.625rem !important;
