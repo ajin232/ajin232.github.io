@@ -164,6 +164,11 @@ footer{
     background-position: center 0%;
 }
 
+.blurb{
+    color: #000000 !important; 
+    margin-bottom: 1rem;
+}
+
 .masthead{ /* sets styling for masthead text */
     vertical-align: middle;
     cursor:default;
