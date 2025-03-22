@@ -406,7 +406,7 @@ footer{
     transition: all 0.25s ease;
 }
 
-.button:hover, .button:focus{
+.button:hover{
     color: #ffffff;
     background-color: #3393d4;
     border: 1.5px solid #3393d4;
@@ -428,7 +428,7 @@ footer{
     display: inline-block;
 }
 
-.button:hover .caret, .button:active .caret, .button:focus .caret{
+.button:hover .caret, .button:active .caret, a:focus .caret{
     transform: translateX(3px);
     transition: transform 0.25s ease;
 }
