@@ -170,7 +170,7 @@ footer{
     line-height: normal; 
     padding: max(3.75vh, 20px) 3.125%;
     background-color: #13856e;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .masthead h1{
@@ -365,7 +365,7 @@ footer{
 
 .highlight{
     background-color: #13856e;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 /* formerly h4, will now be .highlight h3 */
