@@ -301,7 +301,7 @@ footer{
 }
 
 .preview-table:hover .parrowp, .preview-table:active .parrowp{
-    max-width: calc(100% - 36px);
+    max-width: calc(100% - 36px); /* to prevent overflow */
     transform: translateX(36px);
     transition: transform 0.33s ease, max-width 0.33s ease;
 }
