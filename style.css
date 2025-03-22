@@ -80,10 +80,6 @@ img{
     margin-right: auto;
 }
 
-iframe{
-    border: none;
-}
-
 footer{
     width: 100%;
     text-align: center;
@@ -385,13 +381,6 @@ footer{
     transform: translateX(10px);
     transition: transform 0.33s ease, font-size 0.33s ease;
 }
-
-/*.citation{
-    font-family: Helvetica, sans-serif;
-    font-size: 11pt;
-    font-style: italic;
-    text-align: center;
-}*/
 
 .button{
     color: #2472a6;
