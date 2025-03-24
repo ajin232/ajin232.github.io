@@ -21,6 +21,7 @@ p {
 
 h1 {
     font-size: 2.75rem; 
+    font-weight: 300;
     color: #ffffff;
 }
 
@@ -176,10 +177,6 @@ footer{
     margin-bottom: 1rem;
 }
 
-.masthead h1{
-    font-weight: 300;
-}
-
 .homemast{
     height: 75vh; 
     min-height: 300px;
@@ -216,7 +213,6 @@ footer{
 }
 
 .overlay-inner {
-    font-weight: 300;
     font-size: 3.875rem;
     color: #ffffff;
     margin: 0px auto;
