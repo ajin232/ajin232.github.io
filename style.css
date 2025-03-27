@@ -524,6 +524,9 @@ footer .col, footer .col-6{
         width: 93.75%;
         transition: width 0.33s ease;
     }
+    .nav-link{
+        padding: 0.125rem 0.75rem !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 850px) and (pointer: coarse){
