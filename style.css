@@ -55,7 +55,7 @@ h4 { /* formerly h3 in content */
 a{
     text-decoration: underline solid transparent;
     /* color: #2980b9; */
-    color: #2472a6;
+    color: #2471a6;
     transition: all 0.25s ease;
 }
 
@@ -67,7 +67,7 @@ a:hover, a:active, a:focus{
 }
 
 a:visited{
-    color: #2472a6;
+    color: #2471a6;
     transition: all 0.25s ease;
 }
 
@@ -377,8 +377,8 @@ footer{
 }
 
 .button{
-    color: #2472a6;
-    border: 1.5px solid #2472a6;
+    color: #2471a6;
+    border: 1.5px solid #2471a6;
     border-radius: 6px;
     background-color: transparent;
     padding: 0.25rem 1rem;
@@ -399,8 +399,8 @@ footer{
 
 .button:active{
     color: #ffffff;
-    background-color: #2472a6;
-    border: 1.5px solid #2472a6;
+    background-color: #2471a6;
+    border: 1.5px solid #2471a6;
     box-shadow: 1px 1px 2px rgba(0,0,0, 0.125);
     transition: all 0.25s ease;
 }
