@@ -90,6 +90,8 @@ footer{
     background-color: rgba(0, 0, 0, 0.85);
     height: 75px;
     cursor: default;
+    backdrop-filter: blur(3px) !important;
+    -webkit-backdrop-filter: blur(3px) !important;
 }
 
 /* custom classes */
