@@ -10,7 +10,8 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name = "description" content = "My Portfolio - Andrew Jin">
         <meta name = "author" content = "Andrew Jin">
-        <!--<script src = "vue.global.prod.js"></script>-->
+        <script src = "vue.global.prod.js"></script>
+        <script src = "app.js"></script>
     </head>
     <body ontouchstart = "">
         <nav class = "navbar sticky-top navbar-expand-sm navbar-dark">
@@ -33,7 +34,7 @@
                 <h1>My Portfolio</h1>
                 <h2>Computer Science and Journalism work</h2>
             </header>
-            <main>
+            <main id = "app">
                 <div class = "chapter">
                     <div class = "content">
                     <h2 class = "blurb">
@@ -48,6 +49,7 @@
                 </div>
                 <div class = "chapter">
                     <div class = "content">
+                        <PortfolioEntry name = "Fall 2024: G20 Metrics comparisons in Tableau" text = "I collected data from the World Bank's Open Data site and used Tableau to visualize how different G20 nations (plus Spain) compare to each other on six different metrics. The visualization allows you to choose which metric to compare and also which country (if any) to use as the baseline (the relative zero)." link = "https://public.tableau.com/views/471-a4n/Sheet1?:language=en-US"></PortfolioEntry>
                         <div class = "row">
                             <div class = "col-lg-10">
                                 <h4>Fall 2024: G20 Metrics comparisons in Tableau</h4>
