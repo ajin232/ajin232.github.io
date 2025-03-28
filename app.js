@@ -1,6 +1,6 @@
 Vue.createApp({})
 
-.component('PortfolioEntry', {
+.component('portfolio-entry', {
     template: `
         <div class = "row">
             <div class = "col-lg-10">
@@ -8,7 +8,7 @@ Vue.createApp({})
                 <p>{{ text }}</p>
             </div>
             <div class = "col btncol">
-                <a href = "{{ url }}" style = "margin: auto 0px auto auto;"><button class = "button" tabindex = "-1">View <span class = "caret">&rsaquo;</span></button></a>
+                <a v-bind:href = url style = "margin: auto 0px auto auto;"><button class = "button" tabindex = "-1">View <span class = "caret">&rsaquo;</span></button></a>
             </div>
         </div>
     `,
