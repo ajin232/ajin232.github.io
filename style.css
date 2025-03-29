@@ -335,7 +335,7 @@ footer{
 #mainwrap{
     border-radius: 6px;
     background-color: rgba(255,255,255, 0.93) !important;
-    border: 1px solid #13856e;
+    border: none;
     overflow: hidden;
     margin-top: 24px;
     transition: border-radius 0.33s ease, margin-top 0.33s ease;
@@ -517,7 +517,6 @@ footer .col, footer .col-6{
     }
     #mainwrap{
         border-radius: 0px;
-        border: none;
         margin-top: 96px;
         transition: border-radius 0.33s ease, width 0.33s ease, margin-top 0.33s ease;
     }
