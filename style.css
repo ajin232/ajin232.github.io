@@ -98,7 +98,7 @@ footer{
 .navbar{
     font-family: "source-sans-3", Helvetica, sans-serif !important;
     padding: 0.625rem 10% !important;
-    box-shadow: 0px 2px 7px 3px rgba(0,0,0, 0.375); 
+    box-shadow: 0px 1px 7px 3px rgba(0,0,0, 0.3); 
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(3px) !important;
     -webkit-backdrop-filter: blur(3px) !important;
@@ -339,6 +339,7 @@ footer{
     overflow: hidden;
     margin-top: 24px;
     transition: border-radius 0.33s ease, margin-top 0.33s ease;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0, 0.1); 
     backdrop-filter: blur(1.5px) !important;
     -webkit-backdrop-filter: blur(1.5px) !important;
 }
