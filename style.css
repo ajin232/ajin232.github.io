@@ -175,7 +175,7 @@ footer{
     cursor:default;
     line-height: normal; 
     padding: max(3.75vh, 20px) 3.125%;
-    background-color: #13856e;
+    background: linear-gradient(120deg, #13856e 30%, #2471a6 100%);
     margin-bottom: 1rem;
 }
 
@@ -339,7 +339,7 @@ footer{
     overflow: hidden;
     margin-top: 24px;
     transition: border-radius 0.33s ease, margin-top 0.33s ease;
-    box-shadow: 0px 0px 7px 1px rgba(0,0,0, 0.1); 
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0, 0.125); 
     backdrop-filter: blur(1.5px) !important;
     -webkit-backdrop-filter: blur(1.5px) !important;
 }
@@ -375,7 +375,7 @@ footer{
 }
 
 .highlight{
-    background-color: #13856e;
+    background: linear-gradient(120deg, #13856e 30%, #2471a6 100%);
     margin-bottom: 1rem;
 }
 
