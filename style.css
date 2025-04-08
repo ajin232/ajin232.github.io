@@ -175,7 +175,7 @@ footer{
     cursor:default;
     line-height: normal; 
     padding: max(3.75vh, 20px) 3.125%;
-    background: linear-gradient(120deg, #13856e 30%, #2471a6 100%);
+    background: linear-gradient(120deg, #13856e 33%, #2471a6 100%);
     margin-bottom: 1rem;
 }
 
@@ -375,7 +375,7 @@ footer{
 }
 
 .highlight{
-    background: linear-gradient(120deg, #13856e 30%, #2471a6 100%);
+    background: linear-gradient(120deg, #13856e 33%, #2471a6 100%);
     margin-bottom: 1rem;
 }
 
