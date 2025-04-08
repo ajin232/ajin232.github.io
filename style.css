@@ -238,7 +238,7 @@ footer{
     font-size: 1.25rem !important;
     font-weight: 400;
     padding: 6px;
-    border-radius: 6px;
+    border-radius: 7px;
     font-style: italic;
     transition: font-size 0.33s ease;
     background-color: rgba(0,0,0, 0.2);
@@ -333,7 +333,7 @@ footer{
 }
 
 #mainwrap{
-    border-radius: 6px;
+    border-radius: 7px;
     background-color: rgba(255,255,255, 0.93) !important;
     border: none;
     overflow: hidden;
@@ -382,7 +382,7 @@ footer{
 .button{
     color: #2471a6;
     border: 1.5px solid #2471a6;
-    border-radius: 8px;
+    border-radius: 7px;
     background-color: transparent;
     padding: 0.25rem 1rem;
     font-size: 1.25rem;
