@@ -518,7 +518,7 @@ footer .col, footer .col-6{
     }
     #mainwrap{
         border-radius: 0px;
-        margin-top: 96px;
+        margin-top: 100px;
         transition: border-radius 0.33s ease, width 0.33s ease, margin-top 0.33s ease;
     }
     #o2text{
@@ -533,7 +533,7 @@ footer .col, footer .col-6{
         transition: width 0.33s ease;
     }
     .nav-link{
-        padding: 3px 0.75rem !important;
+        padding: 4px 0.75rem !important;
     }
 }
 
