@@ -129,7 +129,7 @@ footer{
 }
 
 .nav-link{
-    font-size: 1.3125rem !important;
+    font-size: 1.25rem !important;
     padding: 0px 0.75rem !important;
     text-decoration: underline solid 1.5px transparent;
     -webkit-text-decoration: underline solid transparent;
@@ -438,7 +438,7 @@ footer{
 }
 
 .icon{
-    font-size: 1.3125rem;
+    font-size: 1.25rem;
     color: #cfd8dc !important;
     transition: color 0.33s ease;
 }
