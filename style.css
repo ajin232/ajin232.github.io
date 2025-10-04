@@ -381,7 +381,7 @@ footer{
 
 .button{
     color: #2471a6;
-    border: 1.5px solid #2471a6;
+    border: 2px solid #2471a6;
     border-radius: 7px;
     background-color: transparent;
     padding: 0.25rem 1rem;
@@ -395,7 +395,7 @@ footer{
 .button:hover{
     color: #ffffff;
     background-color: #3393d4;
-    border: 1.5px solid #3393d4;
+    border: 2px solid #3393d4;
     box-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
     transition: all 0.25s ease;
 }
@@ -403,7 +403,7 @@ footer{
 .button:active{
     color: #ffffff;
     background-color: #2471a6;
-    border: 1.5px solid #2471a6;
+    border: 2px solid #2471a6;
     box-shadow: 1px 1px 2px rgba(0,0,0, 0.125);
     transition: all 0.25s ease;
 }
