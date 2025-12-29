@@ -19,24 +19,28 @@
                 <span class = "navbar-toggler-icon"></span>
             </button>
             <div class = "collapse navbar-collapse" id = "navbarNavAltMarkup">
-                <div class = "navbar-nav">
-                    <a class = "nav-item nav-link" href = "index.html">Home</a>
-                    <a class = "nav-item nav-link" href = "resume.html">Resume</a>
-                    <a class = "nav-item nav-link currentpage" href = "#">Portfolio</a>
+                <div class = "navbar-nav ml-auto">
+                    <a class = "nav-item nav-link" href = "index.html">home</a>
+                    <a class = "nav-item nav-link" href = "resume.html">resume</a>
+                    <a class = "nav-item nav-link currentpage" href = "#">portfolio</a>
                 </div>
             </div> 
         </nav>
-        <div class = "bg" style = "background-image: url(images/sf.jpg)"></div>
-        <div class = "wrapper" id = "mainwrap">
-            <header class = "masthead">
-                <h1>My Portfolio</h1>
-                <h2>Computer Science and Journalism work</h2>
+        <div class = "wrapper">
+            <header class = "mastcontainer" style = "background-image: url(images/sf.jpg); background-position: center bottom !important;">
+                <div style = "height: 33%">
+                    <!-- padding to adjust the masthead text vertically -->
+                </div>
+                <div class = "masthead">
+                    <h1><span>my portfolio</span></h1>
+                    <h2><span>computer science and journalism work</span></h2>
+                </div>
             </header>
             <main id = "app">
                 <div class = "chapter">
                     <div class = "content">
                     <h2 class = "blurb">
-                        A glance into the kinds of work I have been involved with, both cooperatively and individually. <br/><a href = "#jour">Click here to skip to my journalism work.</a>
+                        <span style = "font-weight: 600">A glance into the kinds of work I have been involved with, both cooperatively and individually.</span> <br/><a href = "#jour">Click here to skip to my journalism work.</a>
                     </h2>
                     <noscript>
                         <h2 class = "blurb" style = "font-weight: 600;">NOTE: JavaScript appears to be disabled on your browser. Portfolio items may not appear correctly if this is the case.</h2>    
@@ -45,7 +49,7 @@
                 </div>
                 <div class= "chapter highlight">
                     <div class = "content">
-                        <h3><i class = "bi bi-code-slash"></i> Computer Science work</h3>
+                        <h3><i class = "bi bi-code-slash"></i> &nbsp;computer science work</h3>
                     </div>
                 </div>
                 <div class = "chapter">
@@ -80,8 +84,7 @@
                         </div>
                         <img src = "images/kitchen.jpg" class = "portfoliopic" alt = "Screenshots of kitchen app" />
                         <br/>
-                        <portfolio-entry name = "Summer 2023: Datsura website" text = "I completed a summer internship at Datsura where I created and designed a new website for them using WordPress and CSS." url = "https://datsura.com"></portfolio-entry>
-                        <p>If the website at the view link is down, you can view a semi-functional <a href = "https://web.archive.org/web/20240113190915/http://datsura.com/">archived version from the Wayback Machine (click here).</a></p>
+                        <portfolio-entry name = "Summer 2023: Datsura website" text = "I completed a summer internship at Datsura where I created and designed a new website for them using WordPress and CSS. A new version of the site has since been released, but you can view a semi-functional archived version from the Wayback machine." url = "https://web.archive.org/web/20240113190915/http://datsura.com/"></portfolio-entry>
                         <img src="images/dtsite.png" class = "portfoliopic" alt="Screenshot of website I developed"/>
                         <br/>
                         <portfolio-entry name = "Spring 2023: Cybersecurity Group Project in C" text = "While taking a cybersecurity course, I completed a group programming project whereby we had to design virtual Bank and ATM terminals and have them take in user input and communicate with each other, while also building in defenses to protect against a malicious third party intercepting, modifying or hijacking the communications between the ATM and Bank. This project was written in C. I was largely responsible for the code in atm.c, but I also contributed to other parts of the project. This project requires a password (available upon request)." url = "https://1drv.ms/u/c/cf94b49accca17b8/QbgXysyatJQggM-5BAAAAAAApnK9ucVqffTzxA"></portfolio-entry>
@@ -92,7 +95,7 @@
                 </div>
                 <div class= "chapter highlight">
                     <div class = "content">
-                        <h3><i class = "bi bi-journal-richtext"></i> Journalism work</h3>
+                        <h3><i class = "bi bi-journal-richtext"></i> &nbsp;journalism work</h3>
                     </div>
                 </div>
                 <div class = "chapter">
@@ -125,25 +128,22 @@
                         <portfolio-entry name = "Spring 2022: Short non-narrated news videography story" text = "A short non-narrated news story about a student music club at UMD and its history. I edited the video in addition to collaboratively filming and researching it with my classmate." url = "https://www.youtube.com/watch?v=j6Ras9Z3fQ0"></portfolio-entry>
                         <portfolio-entry name = "Summer 2021: News reporting writing sample" text = "A news story I wrote in AP style for a news writing and reporting course." url = "https://1drv.ms/w/s!ArgXysyatJTPhj1oYTN5c1phjrNb?e=x1ToRl"></portfolio-entry>
                         <portfolio-entry name = "Fall 2019: High school newspaper promo video" text = "A promotional video I directed, filmed and edited in order to help promote my high school's newspaper." url = "https://1drv.ms/v/s!ArgXysyatJTPhQpWs6V-2GbRMzgG?e=b89wW2"></portfolio-entry>
-                        <br/>
                     </div>
                 </div>
             </main>
         </div>
-        <br/>
+        <br>
         <footer>
-            <div class = "wrapper">
-                <div class = "row footercont">
-                    <div class = "col">
-                    </div>
-                    <div class = "col-6">
-                        <span class = "meow">&copy; Copyright 2025</span>
-                    </div>
-                    <div class = "col" style = "text-align: right; padding-right: 0px !important; padding-left: 30px !important; text-wrap: nowrap">
-                        <span><a href = "https://github.com/ajin232" class = "icon" aria-label = "My GitHub" alt = "My GitHub"><i class = "bi bi-github"></i></a></span>
-                        <span>&nbsp;&nbsp;</span>
-                        <span><a href = "https://www.linkedin.com/in/andrew-jin-331737210/" class = "icon" aria-label = "My LinkedIn" alt = "My LinkedIn"><i class = "bi bi-linkedin"></i></a></span>
-                    </div>
+            <div class = "row footercont">
+                <div class = "col">
+                </div>
+                <div class = "col-6">
+                    <span class = "meow">&copy; Copyright 2025</span>
+                </div>
+                <div class = "col" style = "text-align: right; padding-right: 1rem !important; padding-left: 24px !important; text-wrap: nowrap">
+                    <span><a href = "https://github.com/ajin232" class = "icon" aria-label = "My GitHub" alt = "My GitHub"><i class = "bi bi-github"></i></a></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span><a href = "https://www.linkedin.com/in/andrew-jin-331737210/" class = "icon" aria-label = "My LinkedIn" alt = "My LinkedIn"><i class = "bi bi-linkedin"></i></a></span>
                 </div>
             </div>
         </footer>

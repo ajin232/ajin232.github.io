@@ -19,61 +19,75 @@
                 <span class = "navbar-toggler-icon"></span>
             </button>
             <div class = "collapse navbar-collapse" id = "navbarNavAltMarkup">
-                <div class = "navbar-nav">
-                    <a class = "nav-item nav-link" href = "index.html">Home</a>
-                    <a class = "nav-item nav-link currentpage" href = "#">Resume</a>
-                    <a class = "nav-item nav-link" href = "portfolio.html">Portfolio</a>
+                <div class = "navbar-nav ml-auto">
+                    <a class = "nav-item nav-link" href = "index.html">home</a>
+                    <a class = "nav-item nav-link currentpage" href = "#">resume</a>
+                    <a class = "nav-item nav-link" href = "portfolio.html">portfolio</a>
                 </div>
             </div> 
         </nav>
-        <div class = "bg" style = "background-image: url(images/nyc.jpg)"></div>
-        <div class = "wrapper" id = "mainwrap">
-            <header class = "masthead">
-                <h1>My Resume</h1>
-                <h2>Software Developer and Visual Journalist</h2>
+        <div class = "wrapper">
+            <header class = "mastcontainer" style = "background-image: url(images/nyc.jpg);">
+                <div style = "height: 33%">
+                    <!-- padding to adjust the masthead text vertically -->
+                </div>
+                <div class = "masthead">
+                    <h1><span>my resume</span></h1>
+                    <h2><span>frontend developer and visual journalist</span></h2>
+                </div>
             </header>
             <main>
+                <div class = "chapter highlight">
+                    <div class = "content">
+                        <h3><i class="bi bi-person-bounding-box"></i> &nbsp;about me</h3>
+                    </div>
+                </div>
                 <div class = "chapter">
                     <div class = "content">
-                    <h2 class = "blurb">
-                        I am a computer science graduate with an upper level concentration in journalism. With over a decade of experience, I am an excellent software developer with additional interests in graphics design, UI/UX design and broadcast journalism. This experience is reflected in the work on my portfolio.
-                    </h2>
+                    <h4 class = "blurb">
+                        I am a computer science graduate with an upper level concentration in journalism. With over a decade of experience, I am an excellent software developer with additional interests in graphics design, UI/UX design and broadcast journalism.
+                    </h4>
                     </div>
                 </div>
                 <div class = "chapter highlight">
                     <div class = "content">
-                        <h3><i class = "bi bi-journal-text"></i> Education</h3>
+                        <h3><i class = "bi bi-journal-text"></i> &nbsp;education</h3>
                     </div>
                 </div>
                 <div class = "chapter">
                     <div class = "content">
-                        <p>University of Maryland, College Park, August 2020 to December 2024</p> 
+                        <p style = "font-size: 1.1875rem; font-weight: 600;">University of Maryland, College Park, August 2020 to December 2024</p> 
                         <p>Bachelor of Science in Computer Science (with Upper Level Concentration in Journalism)</p>
                         <p>3.3 GPA</p>
                     </div>
                 </div>
                 <div class = "chapter highlight">
                     <div class = "content">
-                        <h3><i class = "bi bi-code-slash"></i> Work Experience</h3>
+                        <h3><i class = "bi bi-code-slash"></i> &nbsp;work experience</h3>
                     </div>
                 </div>
                 <div class = "chapter" id = "experience">
                     <div class = "content">
+                        <h4>Harford County Public Library, Web Developer (Harford County, MD)</h4>
+                        <p>August 2025 to present</p>
+                        <p>The Harford County Public Library system in Maryland has a website that is aging and does not comply with federal accessibility standards, which affects ease of use.</p>
+                        <p>Currently working on maintaining the existing sites and posting new content, while also planning a redesign and rebuild of the main site in a way that uses newer technologies and complies with modern accessibility standards. Also managed library branch social media accounts for a 3 month period of special circumstances.</p>
+                        <br>
                         <h4>Datsura	Analytics, Web Developer Intern (Remote)</h4>
                         <p>June 2023 to August 2023</p>
                         <p>Datsura is a consulting firm which did not have a website, which was a detriment to their ability to attract customers.</p>
-                        <p>Prototyped, designed and developed a new website to showcase the company’s capabilities. Documented maintenance instructions and handed off the website to the company. The website is actively being used by the company to attract customers.</p>
-                        <br/>
+                        <p>Prototyped, designed and developed a new website to showcase the company’s capabilities. Documented maintenance instructions and handed off the website to the company. The website was actively used by the company to attract customers for 3 years.</p>
+                        <br>
                         <h4>Capital News Service, Broadcast Production Volunteer (College Park, MD)</h4>
                         <p>September 2021 to December 2023</p>
                         <p>CNS is a news outlet run by the Merrill College of Journalism at UMD where students can gain real world journalism work experience.</p>
                         <p>Worked as a cameraman, graphics designer, floor director and teleprompter operator for live news broadcasts. Worked as a scriptwriter, storyboard artist and video editor (as well as cameras/graphics) for promo production. Produced animations and graphics (including in real time) for the 2022 Midterm Election Night Broadcast.</p>
-                        <br/>
+                        <br>
                         <h4>Fannie Mae (contractor), Computer Science Intern (Remote)</h4>
                         <p>June 2021 to August 2021</p>
                         <p>The Common Cashflow Analytics (CCFA) software is utilized in the accounting and financial reporting division at Fannie Mae.</p>
                         <p>Rewrote and consolidated Java and JUnit code to allow for error testing on CCFA software with much less hassle. Gained experience with Agile workflow and Unix, as well as improving Java and Eclipse skills.</p>
-                        <br/>
+                        <br>
                         <h4>Land Trust Alliance, IT Intern (Washington, DC)</h4>
                         <p>June 2018 and August 2019</p>
                         <p>Land Trust Alliance holds an annual rally, and they need their laptops to be refreshed to near factory performance for it.</p>
@@ -82,7 +96,7 @@
                 </div>
                 <div class = "chapter highlight">
                     <div class = "content">
-                        <h3><i class = "bi bi-film"></i> Skills</h3>
+                        <h3><i class = "bi bi-film"></i> &nbsp;skills</h3>
                     </div>
                 </div>
                 <div class = "chapter" id = "skills">
@@ -96,7 +110,7 @@
                 </div>
                 <div class = "chapter highlight">
                     <div class = "content">
-                        <h3><i class = "bi bi-globe-americas"></i> Languages</h3>
+                        <h3><i class = "bi bi-globe-americas"></i> &nbsp;languages</h3>
                     </div>
                 </div>
                 <div class = "chapter">
@@ -104,36 +118,33 @@
                         <p><span style = "font-weight: 600">English &nbsp;</span> Native proficiency</p>
                         <p><span style = "font-weight: 600">Mandarin Chinese &nbsp;</span> Basic proficiency</p>
                         <p><span style = "font-weight: 600">Spanish &nbsp;</span> Basic proficiency</p>
-                        <br/>
                     </div>
                 </div>
 <!--
                 <div class = "chapter">
                     <div class = "content">
-                        <br/>
+                        <br>
                         <h3><i class = "bi bi-link-45deg"></i> My Other Pages</h3>
                         <p><a href = "https://github.com/ajin232"><i class = "bi bi-github"></i> GitHub</a></p>
                         <p><a href = "https://www.linkedin.com/in/andrew-jin-331737210/"><i class = "bi bi-linkedin"></i> LinkedIn</a></p>
-                        <br/>
+                        <br>
                     </div>
                 </div>
 -->
             </main>
         </div>
-        <br/>
+        <br>
         <footer>
-            <div class = "wrapper">
-                <div class = "row footercont">
-                    <div class = "col">
-                    </div>
-                    <div class = "col-6">
-                        <span class = "meow">&copy; Copyright 2025</span>
-                    </div>
-                    <div class = "col" style = "text-align: right; padding-right: 0px !important; padding-left: 30px !important; text-wrap: nowrap">
-                        <span><a href = "https://github.com/ajin232" class = "icon" aria-label = "My GitHub" alt = "My GitHub"><i class = "bi bi-github"></i></a></span>
-                        <span>&nbsp;&nbsp;</span>
-                        <span><a href = "https://www.linkedin.com/in/andrew-jin-331737210/" class = "icon" aria-label = "My LinkedIn" alt = "My LinkedIn"><i class = "bi bi-linkedin"></i></a></span>
-                    </div>
+            <div class = "row footercont">
+                <div class = "col">
+                </div>
+                <div class = "col-6">
+                    <span class = "meow">&copy; Copyright 2025</span>
+                </div>
+                <div class = "col" style = "text-align: right; padding-right: 1rem !important; padding-left: 24px !important; text-wrap: nowrap">
+                    <span><a href = "https://github.com/ajin232" class = "icon" aria-label = "My GitHub" alt = "My GitHub"><i class = "bi bi-github"></i></a></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span><a href = "https://www.linkedin.com/in/andrew-jin-331737210/" class = "icon" aria-label = "My LinkedIn" alt = "My LinkedIn"><i class = "bi bi-linkedin"></i></a></span>
                 </div>
             </div>
         </footer>

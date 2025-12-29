@@ -19,22 +19,23 @@
                 <span class = "navbar-toggler-icon"></span>
             </button>
             <div class = "collapse navbar-collapse" id = "navbarNavAltMarkup">
-                <div class = "navbar-nav">
-                    <a class = "nav-item nav-link currentpage" href = "#">Home</a>
-                    <a class = "nav-item nav-link" href = "resume.html">Resume</a>
-                    <a class = "nav-item nav-link" href = "portfolio.html">Portfolio</a>
+                <div class = "navbar-nav ml-auto">
+                    <a class = "nav-item nav-link currentpage" href = "#">home</a>
+                    <a class = "nav-item nav-link" href = "resume.html">resume</a>
+                    <a class = "nav-item nav-link" href = "portfolio.html">portfolio</a>
                 </div>
             </div> 
         </nav>
         <main>
-            <div id = "overlay">
+            
+            <div class = "wrapper">
+                
+                <div style = "background-image: url(images/punchcard.jpg)" id = "homemast"><div id = "overlay">
                 <h1 class = "overlay-inner">Welcome to my website.</h1>
             </div>
             <div id = "overlay2">
                 <div class = "overlay-inner" style = "font-size: initial !important;"><span id = "o2text">Feel free to scroll down</span></div>
-            </div>
-            <div class = "wrapper_full">
-                <div style = "background-image: url(images/punchcard.jpg)" class = "homemast"><div style = "height: 100%; width: 100%; background-color: rgba(0,0,0, 0.37);"></div></div>
+            </div><div style = "height: 100%; width: 100%; background-color: rgba(0,0,0, 0.37); border-radius: 7px;"></div></div>
                 <div style = "background-image: url(images/photos.jpg); background-position: center 35%" class = "preview-section" id = "second">
                     <div class = "preview-inner">
                         <table class = "preview-table">
@@ -45,7 +46,7 @@
                         </table>
                     </div>
                 </div>
-                <div style = "background-image: url(images/interview.jpg); background-position: 55% center" class = "preview-section">
+                <div style = "background-image: url(images/interview.jpg); background-position: 60% center" class = "preview-section">
                     <div class = "preview-inner">
                         <table class = "preview-table">
                             <tr onclick = "location.href='portfolio.html'">
@@ -58,35 +59,34 @@
             </div>
         </main>
         <footer>
-            <div class = "wrapper">
-                <div class = "row footercont">
-                    <div class = "col">
-                    </div>
-                    <div class = "col-6">
-                        <span class = "meow">&copy; Copyright 2025</span>
-                    </div>
-                    <div class = "col" style = "text-align: right; padding-right: 0px !important; padding-left: 30px !important; text-wrap: nowrap">
-                        <span><a href = "https://github.com/ajin232" class = "icon" aria-label = "My GitHub" alt = "My GitHub"><i class = "bi bi-github"></i></a></span>
-                        <span>&nbsp;&nbsp;</span>
-                        <span><a href = "https://www.linkedin.com/in/andrew-jin-331737210/" class = "icon" aria-label = "My LinkedIn" alt = "My LinkedIn"><i class = "bi bi-linkedin"></i></a></span>
-                    </div>
+            <div class = "row footercont">
+                <div class = "col">
+                </div>
+                <div class = "col-6">
+                    <span class = "meow">&copy; Copyright 2025</span>
+                </div>
+                <div class = "col" style = "text-align: right; padding-right: 1rem !important; padding-left: 24px !important; text-wrap: nowrap">
+                    <span><a href = "https://github.com/ajin232" class = "icon" aria-label = "My GitHub" alt = "My GitHub"><i class = "bi bi-github"></i></a></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span><a href = "https://www.linkedin.com/in/andrew-jin-331737210/" class = "icon" aria-label = "My LinkedIn" alt = "My LinkedIn"><i class = "bi bi-linkedin"></i></a></span>
                 </div>
             </div>
         </footer>
         <script type = "text/javascript">
             window.onscroll = function() {textScroll()};
             let header = document.getElementById("overlay");
+            let mast = document.getElementById("homemast");
             let second = document.getElementById("second");
             let header2 = document.getElementById("overlay2")
             function textScroll() {
-                let landmark = second.offsetTop - (window.innerHeight * 0.395);
+                let landmark = second.offsetTop - Math.max((window.innerHeight * 0.41), 130);
                 let landmark2 = window.innerHeight * 0.01;
                 if (window.pageYOffset > landmark) {
-                    let newbottom_int = (61 + (((window.pageYOffset - landmark) / window.innerHeight) * 100));
-                    if (newbottom_int > 105){
-                        newbottom_int = 105;
+                    let newbottom_int = window.innerHeight - mast.getBoundingClientRect().bottom;
+                    if (newbottom_int > (1.05 * window.innerHeight)){
+                        newbottom_int = 1.05 * window.innerHeight;
                     }
-                    let newbottom = newbottom_int + "%";
+                    let newbottom = newbottom_int + "px";
                     header.style.bottom = newbottom;
                     let newopacity_int = 100 - (((window.pageYOffset - landmark) / window.innerHeight) * 400);
                     if (newopacity_int < 0){
@@ -95,17 +95,17 @@
                     let newopacity = newopacity_int + "%";
                     header.style.opacity = newopacity;
                 } else {
-                    header.style.bottom = "61%";
+                    header.style.bottom = "min(60%, calc(100% - 130px))";
                     header.style.opacity = "100%";
                 }
                 if (window.pageYOffset > landmark2){
-                    let newopacity2_int = 100 - (((window.pageYOffset - landmark2) / window.innerHeight) * 2000);
+                    let newopacity2_int = 100 - (((window.pageYOffset - landmark2) / window.innerHeight) * 3000);
                     if (newopacity2_int < 0){
                         newopacity2_int = 0;
                         header2.style.bottom = "105%";
                     } else {
                         if (header2.style.bottom == "105%"){
-                            header2.style.bottom = "20%";
+                            header2.style.bottom = "18%";
                         }
                     }
                     let newopacity2 = newopacity2_int + "%";
@@ -113,7 +113,7 @@
                 } else {
                     header2.style.opacity = "100%";
                     if (header2.style.bottom == "105%"){
-                        header2.style.bottom = "20%";
+                        header2.style.bottom = "18%";
                     }
                 }
             } 
