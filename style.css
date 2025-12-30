@@ -564,7 +564,7 @@ footer .col, footer .col-6{
 
 @media (max-width: 575.99px){
     footer, .wrapper, .navbar, #overlay, #overlay2{
-        width: 99%;
+        width: 99.5%;
         transition: width 0.3s ease;
     }
     .preview-table{
