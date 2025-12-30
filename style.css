@@ -237,8 +237,8 @@ main{
     vertical-align: middle;
     cursor: default;
     line-height: normal; 
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .masthead h1{
@@ -432,8 +432,8 @@ main{
 
 .highlight{
     border-radius: 7px;
-    background-color: #226a9c;
-    background-image: linear-gradient(105deg, #8647b3 0%, #2078b4 30%, #2078b4 70%, #13856e 100%);
+    background-color: #2078b4;
+    background-image: linear-gradient(105deg, #8647b3 3%, #2078b4 33%, #2078b4 67%, #13856e 97%);
     background-size: 200% 100%;
     background-position: right center;
     margin-top: 8px !important;
@@ -564,7 +564,7 @@ footer .col, footer .col-6{
 
 @media (max-width: 575.99px){
     footer, .wrapper, .navbar, #overlay, #overlay2{
-        width: 100%;
+        width: 99%;
         transition: width 0.3s ease;
     }
     .preview-table{
