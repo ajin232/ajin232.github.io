@@ -433,7 +433,7 @@ main{
 .highlight{
     border-radius: 7px;
     background-color: #2078b4;
-    background-image: linear-gradient(75deg, #8647b3 3%, #2078b4 33%, #2078b4 67%, #13856e 97%);
+    background-image: linear-gradient(75deg, #8647b3 3%, #2078b4 33%, #2078b4 67%, #13866d 97%);
     background-size: 200% 100%;
     background-position: right center;
     margin-top: 8px !important;
