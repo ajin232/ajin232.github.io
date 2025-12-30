@@ -225,7 +225,7 @@ main{
     background: no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(32, 120, 180, 0.02);
     border-radius: 7px;
     margin-top: 8px;
 }
