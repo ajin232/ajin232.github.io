@@ -225,11 +225,9 @@ main{
     background: no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     margin-top: 8px;
-    /*position: relative;
-    z-index: 2;
-    box-shadow: 0px 4px 5px 0px rgba(36,42,46, 0.25);*/
 }
 
 .masthead{ /* sets styling for masthead text */
