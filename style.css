@@ -21,9 +21,10 @@ p {
 }
 
 h1 {
-    font-size: 2.5rem; 
+    font-size: 2.375rem; 
     font-weight: 300 !important;
     color: #ffffff;
+    transition: font-size 0.3s ease;
 }
 
 h2 { /* formerly h3 in masthead */
@@ -108,7 +109,7 @@ main{
 /* custom classes */
 .navbar{
     font-family: "muli", Helvetica, sans-serif !important;
-    padding: 0.8125rem 1rem !important;
+    padding: 0.625rem 1rem !important;
     box-shadow: 0px 1px 6px 2px rgba(0,0,0, 0.33); 
     background-color: rgba(0, 0, 0, 0.875);
     backdrop-filter: blur(3.5px) !important;
@@ -142,7 +143,7 @@ main{
 
 .mybrand{
     color: #ffffff !important;
-    font-size: 1.75rem !important; 
+    font-size: 2rem !important; 
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     text-decoration: none !important;
